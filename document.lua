@@ -1,3 +1,5 @@
+local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/itzd4t/Ntd-Service/main/system.lua"))()
+
 local window = library:new({textsize = 13.5,font = Enum.Font.RobotoMono,name = "Kenei UI",color = Color3.fromRGB(0,255,255)})
 
 local Main_1_Page = window:page({name = "Main 1"})
